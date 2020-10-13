@@ -1,0 +1,1788 @@
+/* Screen-size for Laptops */
+
+body {
+	font-family: Geneva, Verdana, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin: 0px;
+	
+}
+
+#content-nav {
+	display: flex;
+	border-bottom-style: outset;
+	border-width: 5px;
+	width: 1270px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logobkgrnd {
+	background-image: url(../image/logo.png);
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 90px;
+	display: flex;
+	justify-content: center;
+}
+
+#logobkgrnd h1 {
+	font-size: 18px;
+	margin-left: 6px;
+	margin-top: 26px;
+	font-family: 'Luckiest Guy', cursive;
+	color: yellow;
+}
+
+#logo a {
+	text-decoration: none;
+}
+
+nav {
+	font-size: 18px;
+}
+
+nav ul {
+	margin-bottom: 16px;
+}
+
+.fixnav {
+	margin-left: 30px;
+	overflow: hidden; 
+}
+
+.fixnav ul {
+	display: flex;
+}
+
+.fixnav li {
+	list-style-type: none;
+	margin-left: 50px;
+}
+
+.fixnav li a {
+	text-decoration: none;
+	color: #333333;
+	
+}
+
+.fixnav li a:hover {
+	color: #b3b3b3;
+}
+
+.fixnav li i {
+	border: solid black;
+ 	border-width: 0 2px 2px 0;
+  	display: inline-block;
+  	padding: 4px;
+	transform: rotate(45deg);
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+
+.dropdown:hover i {
+	border: solid #b3b3b3;
+ 	border-width: 0 2px 2px 0;
+  	display: inline-block;
+  	padding: 4px;
+	transform: rotate(225deg);
+	margin-left: 10px;
+	margin-bottom: 1px;
+}
+
+.nts {
+	text-decoration: none;
+	color: #333333;
+	
+}
+
+.dropdown:hover .nts {
+	color: #b3b3b3;
+	
+}
+
+.dropdown {
+	overflow: hidden;
+	width: 165px;	
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin-left: 50px;
+}
+
+
+.dropdown-content li a {
+  	color: #333333;
+ 	display: block;
+	margin-right: 10px;
+	margin-left: -40px;
+	margin-top: 5px;
+	margin-bottom: 1px;
+	padding: 12px 16px;
+ 
+}
+
+.dropdown-content li a:hover {
+	color: red;
+	background-color: yellow;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#dropdown2 {
+	width: 255px;
+}
+
+#dropdown3 {
+	width: 190px;
+}
+
+#firstli {
+	width: 140px;
+}	
+
+#thirdli {
+	margin-left: 450px;
+}
+
+#uppernav {
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+
+#uppernav a {
+	color: #6e6e6e;
+}
+
+#uppernav a:hover {
+	color: #cece31;
+}
+
+
+
+
+
+#nav-content {
+	display: none;
+}
+
+#wrapper {
+	width: 1180px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 90px;
+}
+
+#image1 {
+	background-image: linear-gradient(-90deg, white 15%, white 5%, transparent 77%), url(../image/toys.png);
+	background-repeat: no-repeat;
+	width: 1180px;
+	height: 608px;
+	border-radius: 10px;
+}
+
+#image1 p {
+	text-align: right;
+	margin-right: 70px;
+}
+
+#playtime {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 65px;
+	padding-top: 275px;
+	margin-bottom: -10px;
+	color: red;
+	font-weight: bolder;
+}
+
+#shop {
+	background-color: yellow;
+	width: 140px;
+	height: 45px;
+	margin-left: 960px;
+	display: flex;
+	justify-content: center;
+	border-radius: 5px;
+}
+
+#shop p {
+	width: 90px;
+	margin: 0px;
+	padding-top: 10px;
+}
+
+#shop a {
+	text-decoration: none;
+	color: #000000;
+	padding-left: 31.5px;
+	padding-right: 31.5px;
+	border-radius: 5px;
+}
+
+#shop a:hover {
+	background-color: #e7f3f9;
+	color: #297699;
+	padding-left: 31.5px;
+	padding-right: 31.5px;
+	border-radius: 5px;
+}
+
+.fixfont {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+}
+
+#bkgrndcolor {
+	 background-color: #ffff00;
+	 padding-left: 15px;
+	 padding-right: 15px;
+	 padding-bottom: 30px;
+}
+
+.childtoys {
+	display: flex;
+	justify-content: space-between;
+}
+
+.toys {
+	width: 375px;
+	height: 250px; 
+	margin-top: 45px;
+}
+
+.toystitle {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 31px;
+	width: 375px;
+}
+
+.toysdescrp {
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 375px;
+}
+
+.buynow {
+	background-color: red;
+	width: 120px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	border-radius: 5px;
+}
+
+.buynow p {
+	width: 100px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0px;
+	padding-top: 6px;
+	padding-left: 24px;
+	font-size: 20px;
+}
+
+.buynow a {
+	text-decoration: none;
+	color: #000000;
+	padding-left: 22px;
+	padding-right: 22px;
+}
+
+
+#flexcontainer {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 60px;
+}
+
+.ftitle {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	margin-bottom: 15px; 
+}
+
+.ftitle a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#flexcontainer ul {
+	margin-top: 15px;
+	padding-left: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 17px;
+	color: #454545;
+	line-height: 35px;
+}
+
+#flexcontainer ul li {
+	list-style-type: none;
+}
+
+.flexitems li a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.flexitems li a:hover {
+	text-decoration: underline;
+}
+
+#circle {
+	width: 25px;
+	height: 25px;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 50%;
+}
+
+#uparrow {
+	width: 0px;
+	height: 0px;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 16px solid black;
+ 	margin-left: 4px;
+	margin-top: 3px;   
+}
+
+#back2top {
+	margin-top: 80px;
+}
+
+#backtop {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 8px; 
+	margin-left: -25px;
+	font-size: 14px;
+}
+
+#socialmedia {
+	height: 100px;
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #9a9a9a;
+}
+
+#medialogo {
+	display: flex;
+}
+
+#medialogo li {
+	list-style-type: none;
+	margin-left: 10px;
+}
+
+#apps ul {
+	display: flex;
+}
+
+#apps li {
+	list-style-type: none;
+	margin-left: 2px;
+} 
+
+#apps {
+	margin-top: -47px;
+}
+
+#apple2 {
+	margin-top: 47px;
+}
+
+#footerlogo {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+#footerlogo a{
+	text-decoration: none;
+}
+
+#logobkgrnd2 {
+	background-image: url(../image/logo2.png);
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+#logobkgrnd2 h1 {
+	font-size: 12px;
+	margin-left: -20px;
+	margin-top: 20px;
+	font-family: 'Luckiest Guy', cursive;
+	color: yellow;
+}
+
+#fcontent {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+
+/* Web browser window size under 1199px */
+
+@media (max-width: 1199px) {
+	body {
+	font-size: 14px;
+}
+
+	#content-nav {
+	border-width: 4px;
+	width: 100%;
+}
+	#logobkgrnd {
+	background-image: url(../image/logo3.png);
+	width: 130px;
+	height: 70px;
+}
+	#logobkgrnd h1 {
+	font-size: 15px;
+	margin-left: -24px;
+	margin-top: 16px;
+}
+
+	nav {
+	font-size: 14px;
+}
+	nav ul {
+	margin-bottom: 14px;
+}
+
+.fixnav {
+	margin-left: -10px; 
+}
+
+.fixnav li i {
+ 	border-width: 0 1px 1px 0;
+  	padding: 2px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}	
+
+.dropdown:hover i {
+ 	border-width: 0 1px 1px 0;
+  	padding: 2px;
+	margin-left: 5px;
+	margin-bottom: 1px;
+}
+
+.dropdown {
+	width: 136px;	
+}
+
+#dropdown2 {
+	width: 208px;
+}
+
+#dropdown3 {
+	width: 160px;
+}
+
+#firstli {
+	width: 130px;
+}
+
+#thirdli {
+	margin-left: 380px;
+}
+
+#uppernav {
+	margin-bottom: 10px;
+	font-size: 10px;
+}
+
+#wrapper {
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -40px;
+}
+
+#image1 {
+	background-image: linear-gradient(-90deg, white 15%, white 5%, transparent 77%), url(../image/toys2.png);
+	width: 1100px;
+	height: 567px;
+	border-radius: 10px;
+}
+
+#image1 p {
+	margin-right: 100px;
+	margin-top: 50px;
+}
+
+#playtime {
+	font-size: 55px;
+	padding-top: 260px;
+	margin-bottom: -50px;
+}
+
+#toddler {
+	font-size: 14px;
+}
+
+#shop {
+	width: 100px;
+	height: 35px;
+	margin-left: 900px;
+	border-radius: 5px;
+}
+
+#shop p {
+	width: 100px;
+	margin: 0;
+	margin-left: -55px;
+	padding-top: 8px;
+	font-size: 12px;
+}
+
+#shop a {
+	padding-left: 29px;
+	padding-right: 29px;
+	border-radius: 5px;
+}
+
+
+#shop a:hover {
+	padding-left: 29px;
+	padding-right: 29px;
+	border-radius: 5px;
+}
+
+.toys {
+	width: 350px;
+	height: 220px; 
+	margin-top: 45px;
+}
+
+.toystitle {
+	font-size: 25px;
+	width: 250px;
+}
+
+.toysdescrp {
+	width: 200px;
+}
+
+.buynow {
+	width: 90px;
+	height: 28px;
+	border-radius: 5px;
+}
+
+.buynow p {
+	margin-top: 4px;
+	margin-left: -22px;
+	padding-top: 0px;
+	font-size: 14px;
+	width: 52px;
+}
+
+#flexcontainer {
+	margin-top: -2px;
+}
+
+.ftitle {
+	font-size: 16px;
+	margin-bottom: 7px; 
+}
+
+#flexcontainer ul {
+	margin-top: 12px;
+	padding-left: 0px;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#socialmedia {
+	height: 50px;
+	margin-top: 20px; 
+}
+
+#apple2 {
+	height: 26px;
+	margin-bottom: -62px;
+}
+
+#google {
+	margin-top: 30px;
+	height: 66px;
+}
+
+#medialogo {
+	height: 30px;
+	margin-bottom: 0px;
+}
+
+#medialogo img {
+	height: 26px;
+}
+
+#logobkgrnd2 {
+	background-image: url(../image/logo2.png);
+	width: 100px;
+	height: 59px;
+}
+
+#logobkgrnd2 h1 {
+	font-size: 12px;
+	margin-left: 8px;
+	margin-top: 18px;
+}
+
+#fcontent {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+}
+
+/* Web browser window size under 1100px */
+
+@media (max-width: 1100px) {
+
+#wrapper {
+	width: 920px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -40px;
+}
+
+#image1 {
+	background-image: linear-gradient(-90deg, white 15%, white 5%, transparent 77%), url(../image/toys4.png);
+	width: 920px;
+	height: 474px;
+	border-radius: 10px;
+}
+
+#image1 p {
+	margin-right: 100px;
+	margin-top: 50px;
+}
+
+#playtime {
+	font-size: 45px;
+	padding-top: 220px;
+	margin-bottom: -50px;
+}
+
+#toddler {
+	font-size: 13px;
+}
+
+#shop {
+	width: 100px;
+	height: 35px;
+	margin-left: 720px;
+	border-radius: 5px;
+}
+
+#shop p {
+	width: 100px;
+	margin: 0;
+	margin-left: -55px;
+	padding-top: 8px;
+	font-size: 12px;
+}
+
+#shop a {
+	padding-left: 28px;
+	padding-right: 28px;
+	border-radius: 5px;
+}
+
+#shop a:hover {
+	padding-left: 28px;
+	padding-right: 28px;
+	border-radius: 5px;
+}
+
+.toys {
+	width: 260px;
+	height: 140px; 
+	margin-top: 45px;
+}
+}
+
+/* Web browser window size under 940px */
+
+@media (max-width: 940px) {
+	body {
+	font-size: 14px;
+}
+
+	#content-nav {
+	border-width: 3px;
+	width: 100%;
+}
+	#logobkgrnd {
+	background-image: url(../image/logo3.png);
+	width: 130px;
+	height: 70px;
+}
+	#logobkgrnd h1 {
+	font-size: 15px;
+	margin-left: -24px;
+	margin-top: 16px;
+}
+
+	nav {
+	font-size: 12px;
+}
+	nav ul {
+	margin-bottom: 14px;
+}
+
+.fixnav {
+	margin-left: -60px; 
+}
+
+.fixnav li i {
+ 	border-width: 0 1px 1px 0;
+  	padding: 2px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}	
+
+.dropdown:hover i {
+ 	border-width: 0 1px 1px 0;
+  	padding: 2px;
+	margin-left: 5px;
+	margin-bottom: 1px;
+}
+
+.dropdown {
+	width: 124px;	
+}
+
+#dropdown2 {
+	width: 182px;
+}
+
+#dropdown3 {
+	width: 140px;
+}
+
+#firstli {
+	width: 80px;
+}
+
+#thirdli {
+	margin-left: 360px;
+}
+
+#uppernav {
+	margin-bottom: 4px;
+	font-size: 9px;
+}
+
+#wrapper {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -40px;
+}
+
+#image1 {
+	background-image: linear-gradient(-90deg, white 15%, white 5%, transparent 77%), url(../image/toys5.png);
+	width: 800px;
+	height: 412px;
+	border-radius: 10px;
+}
+
+#image1 p {
+	margin-right: 90px;
+	margin-top: 50px;
+}
+
+#playtime {
+	font-size: 40px;
+	padding-top: 190px;
+	margin-bottom: -50px;
+}
+
+#toddler {
+	font-size: 11.5px;
+}
+
+#shop {
+	width: 80px;
+	height: 30px;
+	margin-left: 630px;
+	border-radius: 5px;
+}
+
+#shop p {
+	width: 100px;
+	margin: 0;
+	margin-left: -49px;
+	padding-top: 6px;
+	font-size: 11px;
+}
+
+#shop a {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+}
+
+#shop a:hover {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+}
+
+.toys {
+	width: 250px;
+	height: 120px; 
+	margin-top: 45px;
+}
+
+.toystitle {
+	font-size: 22px;
+	width: 250px;
+}
+
+.toysdescrp {
+	width: 200px;
+}
+
+.buynow {
+	width: 70px;
+	height: 22px;
+	border-radius: 5px;
+}
+
+.buynow p {
+	margin-top: 2px;
+	margin-left: -12px;
+	padding-top: 0px;
+	font-size: 12px;
+	width: 52px;
+}
+
+#flexcontainer {
+	margin-top: -2px;
+}
+
+.ftitle {
+	font-size: 16px;
+	margin-bottom: 7px; 
+}
+
+#flexcontainer ul {
+	margin-top: 12px;
+	padding-left: 0px;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#socialmedia {
+	height: 50px;
+	margin-top: 20px; 
+}
+
+#apple2 {
+	height: 26px;
+	margin-bottom: -62px;
+}
+
+#google {
+	margin-top: 30px;
+	height: 66px;
+}
+
+#medialogo {
+	height: 30px;
+	margin-bottom: 0px;
+}
+
+#medialogo img {
+	height: 26px;
+}
+
+#logobkgrnd2 {
+	background-image: url(../image/logo2.png);
+	width: 100px;
+	height: 59px;
+}
+
+#logobkgrnd2 h1 {
+	font-size: 12px;
+	margin-left: 8px;
+	margin-top: 18px;
+}
+
+#fcontent {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+}
+
+
+
+
+/* Web browser window size under 800px */
+
+@media (max-width: 800px) {
+	body {
+	font-size: 14px;
+}
+
+	#content-nav {
+	border-width: 3px;
+	width: 100%;
+}
+	#logobkgrnd {
+	background-image: url(../image/logo3.png);
+	width: 115px;
+	height: 55px;
+}
+	#logobkgrnd h1 {
+	font-size: 13px;
+	margin-left: -14px;
+	margin-top: 16px;
+}
+
+	nav {
+	font-size: 12px;
+}
+	nav ul {
+	margin-bottom: 14px;
+}
+
+.fixnav {
+	margin-left: -100px; 
+}
+
+.fixnav li i {
+ 	border-width: 0 1px 1px 0;
+  	padding: 2px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}	
+
+.dropdown:hover i {
+ 	border-width: 0 1px 1px 0;
+  	padding: 2px;
+	margin-left: 5px;
+	margin-bottom: 1px;
+}
+
+.dropdown {
+	width: 124px;	
+}
+
+#dropdown2 {
+	width: 182px;
+}
+
+#dropdown3 {
+	width: 140px;
+}
+
+#firstli {
+	width: 80px;
+}
+
+#thirdli {
+	margin-left: 320px;
+}
+
+#uppernav {
+	margin-bottom: 4px;
+	font-size: 9px;
+}
+
+#wrapper {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -40px;
+}
+
+#image1 {
+	background-image: linear-gradient(-90deg, white 15%, white 5%, transparent 77%), url(../image/toys6.png);
+	width: 700px;
+	height: 361px;
+	border-radius: 10px;
+}
+
+#image1 p {
+	margin-right: 50px;
+	margin-top: 50px;
+}
+
+#playtime {
+	font-size: 40px;
+	padding-top: 160px;
+	margin-bottom: -50px;
+}
+
+#toddler {
+	font-size: 11.5px;
+}
+
+#shop {
+	width: 80px;
+	height: 30px;
+	margin-left: 570px;
+	border-radius: 5px;
+}
+
+#shop p {
+	width: 100px;
+	margin: 0;
+	margin-left: -49px;
+	padding-top: 6px;
+	font-size: 11px;
+}
+
+#shop a {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+}
+
+#shop a:hover {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+}
+
+.toys {
+	width: 180px;
+	height: 120px; 
+	margin-top: 45px;
+}
+
+.toystitle {
+	font-size: 20px;
+	width: 150px;
+}
+
+.toysdescrp {
+	width: 200px;
+}
+
+.buynow {
+	width: 70px;
+	height: 22px;
+	border-radius: 5px;
+}
+
+.buynow p {
+	margin-top: 2px;
+	margin-left: -12px;
+	padding-top: 0px;
+	font-size: 12px;
+	width: 52px;
+}
+
+#flexcontainer {
+	margin-top: -2px;
+}
+
+.ftitle {
+	font-size: 16px;
+	margin-bottom: 7px; 
+}
+
+#flexcontainer ul {
+	margin-top: 12px;
+	padding-left: 0px;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#socialmedia {
+	height: 50px;
+	margin-top: 20px; 
+}
+
+#apple2 {
+	height: 26px;
+	margin-bottom: -62px;
+}
+
+#google {
+	margin-top: 30px;
+	height: 66px;
+}
+
+#medialogo {
+	height: 30px;
+	margin-bottom: 0px;
+}
+
+#medialogo img {
+	height: 26px;
+}
+
+#logobkgrnd2 {
+	background-image: url(../image/logo2.png);
+	width: 100px;
+	height: 59px;
+}
+
+#logobkgrnd2 h1 {
+	font-size: 12px;
+	margin-left: 8px;
+	margin-top: 18px;
+}
+
+#fcontent {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+}
+
+/* Web browser window size under 800px */
+
+@media (max-width: 800px) {
+	body {
+	font-size: 14px;
+}
+
+	#content-nav {
+	border-width: 3px;
+	width: 100%;
+}
+	#logobkgrnd {
+	background-image: url(../image/logo3.png);
+	width: 115px;
+	height: 55px;
+	margin-bottom: 8px;
+}
+	#logobkgrnd h1 {
+	font-size: 13px;
+	margin-left: -14px;
+	margin-top: 16px;
+}
+
+	nav {
+	font-size: 12px;
+}
+	nav ul {
+	margin-bottom: 14px;
+	margin-top: 20px;
+}
+
+.fixnav {
+	margin-left: -100px; 
+}
+
+.fixnav li i {
+ 	border-width: 0 1px 1px 0;
+  	padding: 2px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}	
+
+.dropdown:hover i {
+ 	border-width: 0 1px 1px 0;
+  	padding: 2px;
+	margin-left: 5px;
+	margin-bottom: 1px;
+}
+
+.dropdown {
+	width: 124px;	
+}
+
+#dropdown2 {
+	width: 182px;
+}
+
+#dropdown3 {
+	width: 140px;
+}
+
+#firstli {
+	width: 80px;
+}
+
+#thirdli {
+	margin-left: 320px;
+}
+
+#uppernav {
+	display: none; 
+}
+
+#wrapper {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -40px;
+}
+
+#image1 {
+	background-image: linear-gradient(-90deg, white 15%, white 5%, transparent 77%), url(../image/toys6.png);
+	width: 700px;
+	height: 361px;
+	border-radius: 10px;
+}
+
+#image1 p {
+	margin-right: 50px;
+	margin-top: 50px;
+}
+
+#playtime {
+	font-size: 40px;
+	padding-top: 160px;
+	margin-bottom: -50px;
+}
+
+#toddler {
+	font-size: 11.5px;
+}
+
+#shop {
+	width: 80px;
+	height: 30px;
+	margin-left: 570px;
+	border-radius: 5px;
+}
+
+#shop p {
+	width: 100px;
+	margin: 0;
+	margin-left: -49px;
+	padding-top: 6px;
+	font-size: 11px;
+}
+
+#shop a {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+}
+
+#shop a:hover {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+}
+
+.toys {
+	width: 180px;
+	height: 120px; 
+	margin-top: 45px;
+}
+
+.toystitle {
+	font-size: 20px;
+	width: 150px;
+}
+
+.toysdescrp {
+	width: 200px;
+}
+
+.buynow {
+	width: 70px;
+	height: 22px;
+	border-radius: 5px;
+}
+
+.buynow p {
+	margin-top: 2px;
+	margin-left: -12px;
+	padding-top: 0px;
+	font-size: 12px;
+	width: 52px;
+}
+
+#flexcontainer {
+	margin-top: -2px;
+}
+
+.ftitle {
+	font-size: 16px;
+	margin-bottom: 7px; 
+}
+
+#flexcontainer ul {
+	margin-top: 12px;
+	padding-left: 0px;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#socialmedia {
+	height: 50px;
+	margin-top: 20px; 
+}
+
+#apple2 {
+	height: 26px;
+	margin-bottom: -62px;
+}
+
+#google {
+	margin-top: 30px;
+	height: 66px;
+}
+
+#medialogo {
+	height: 30px;
+	margin-bottom: 0px;
+}
+
+#medialogo img {
+	height: 26px;
+}
+
+#logobkgrnd2 {
+	background-image: url(../image/logo2.png);
+	width: 100px;
+	height: 59px;
+}
+
+#logobkgrnd2 h1 {
+	font-size: 12px;
+	margin-left: 8px;
+	margin-top: 18px;
+}
+
+#fcontent {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+}
+
+/* Web browser window size under 754px */
+
+@media (max-width: 754px) {
+	body {
+	font-size: 14px;
+}
+
+	#content-nav {
+	border-width: 3px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+	#logobkgrnd {
+	background-image: url(../image/logo3.png);
+	width: 115px;
+	height: 55px;
+	margin-bottom: 8px;
+}
+	#logobkgrnd h1 {
+	font-size: 13px;
+	margin-left: -14px;
+	margin-top: 16px;
+}
+
+	nav {
+	font-size: 12px;
+}
+	nav ul {
+	margin-bottom: 14px;
+	margin-top: 20px;
+}
+
+.fixnav ul{
+	display: none; 
+}
+
+#navicon {
+	box-sizing: content-box;
+	width: 25px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-top: 4px solid #737272;
+	border-bottom: 4px solid #737272;
+	margin: 0px;
+}	
+
+#navicon:before {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 4px;
+	background-color: #737272;
+}
+
+#nav-dropdown:hover #navicon{
+	border-color: red;
+}
+
+#nav-dropdown:hover #navicon:before {
+	background-color: red;
+}
+
+#nav-dropdown {
+	overflow: hidden;
+	margin-right: 100px;
+	margin-top: 18px;
+}
+
+#nav-content {
+	display: none;
+	width: 200px;
+	position: absolute;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin-top: 1px;
+	margin-left: -46px;
+	font-size: 16px;
+}
+
+#nav-content li a {
+  	color: #333333;
+ 	display: block;
+	margin-right: 10px;
+	margin-left: -40px;
+	margin-top: 5px;
+	margin-bottom: 1px;
+	padding: 12px 16px;
+}
+
+#nav-content li a:hover {
+	color: red;
+	background-color: yellow;
+}
+
+#nav-dropdown:hover #nav-content {
+	display: block;
+}
+}
+
+/* Web browser window size under 704px */
+
+@media (max-width: 704px) {
+
+#wrapper {
+	width: 625px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -40px;
+}
+
+#image1 {
+	background-image: linear-gradient(-90deg, white 15%, white 5%, transparent 77%), url(../image/toys7.png);
+	width: 625px;
+	height: 322px;
+	border-radius: 10px;
+}
+
+#image1 p {
+	margin-right: 50px;
+	margin-top: 50px;
+}
+
+#playtime {
+	font-size: 35px;
+	padding-top: 145px;
+	margin-bottom: -50px;
+}
+
+#toddler {
+	font-size: 10px;
+}
+
+#shop {
+	width: 80px;
+	height: 30px;
+	margin-left: 495px;
+	border-radius: 5px;
+}
+
+#shop p {
+	width: 100px;
+	margin: 0;
+	margin-left: -49px;
+	padding-top: 6px;
+	font-size: 11px;
+}
+
+#shop a {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+}
+
+#shop a:hover {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+}
+
+.toys {
+	width: 180px;
+	height: 120px; 
+	margin-top: 45px;
+}
+
+.toystitle {
+	font-size: 20px;
+	width: 150px;
+}
+
+.toysdescrp {
+	width: 200px;
+}
+
+.buynow {
+	width: 70px;
+	height: 22px;
+	border-radius: 5px;
+}
+
+.buynow p {
+	margin-top: 2px;
+	margin-left: -12px;
+	padding-top: 0px;
+	font-size: 12px;
+	width: 52px;
+}
+
+#flexcontainer {
+	margin-top: -2px;
+}
+
+.ftitle {
+	font-size: 16px;
+	margin-bottom: 7px; 
+}
+
+#flexcontainer ul {
+	margin-top: 12px;
+	padding-left: 0px;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#socialmedia {
+	height: 50px;
+	margin-top: 20px; 
+}
+
+#apple2 {
+	height: 26px;
+	margin-bottom: -62px;
+}
+
+#google {
+	margin-top: 30px;
+	height: 66px;
+}
+
+#medialogo {
+	height: 30px;
+	margin-bottom: 0px;
+}
+
+#medialogo img {
+	height: 26px;
+}
+
+#logobkgrnd2 {
+	background-image: url(../image/logo2.png);
+	width: 100px;
+	height: 59px;
+}
+
+#logobkgrnd2 h1 {
+	font-size: 12px;
+	margin-left: 8px;
+	margin-top: 18px;
+}
+
+#fcontent {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+}
+
+/* Web browser window size under px */
+
+@media (max-width: 628px) {
+
+#wrapper {
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -40px;
+}
+
+#image1 {
+	background-image: linear-gradient(-90deg, white 15%, white 5%, transparent 77%), url(../image/toys8.png);
+	width: 500px;
+	height: 258px;
+	border-radius: 10px;
+}
+
+#image1 p {
+	margin-right: 10px;
+	margin-top: 50px;
+}
+
+#playtime {
+	font-size: 25px;
+	padding-top: 120px;
+	margin-bottom: -50px;
+}
+
+#toddler {
+	display: none;
+}
+
+#shop {
+	width: 80px;
+	height: 30px;
+	margin-left: 408px;
+	margin-top: 65px;
+	border-radius: 5px;
+}
+
+#shop p {
+	width: 100px;
+	margin: 0;
+	margin-left: -49px;
+	padding-top: 6px;
+	font-size: 11px;
+}
+
+#shop a {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+}
+
+#shop a:hover {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+}
+
+.childtoys {
+	display: inline;
+}
+
+.toys {
+	width: 300px;
+	height: 200px; 
+	display: block;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.toystitle {
+	font-size: 25px;
+	width: 310px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.toysdescrp {
+	width: 310px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.buynow {
+	width: 70px;
+	height: 22px;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.buynow p {
+	margin-top: 2px;
+	margin-left: -12px;
+	padding-top: 0px;
+	font-size: 12px;
+	width: 52px;
+}
+
+#flexcontainer {
+	margin-top: -2px;
+}
+
+.ftitle {
+	font-size: 16px;
+	margin-bottom: 7px; 
+}
+
+#flexcontainer ul {
+	margin-top: 12px;
+	padding-left: 0px;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#socialmedia {
+	height: 50px;
+	margin-top: 20px; 
+}
+
+#apple2 {
+	height: 26px;
+	margin-bottom: -62px;
+}
+
+#google {
+	margin-top: 30px;
+	height: 66px;
+}
+
+#medialogo {
+	height: 30px;
+	margin-bottom: 0px;
+}
+
+#medialogo img {
+	height: 26px;
+}
+
+#logobkgrnd2 {
+	background-image: url(../image/logo2.png);
+	width: 100px;
+	height: 59px;
+}
+
+#logobkgrnd2 h1 {
+	font-size: 12px;
+	margin-left: 8px;
+	margin-top: 18px;
+}
+
+#fcontent {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+}
+
+
+
+
+
+/* Remember to give the page some fluidity so the webpage content may fit on any screen device. This mean use % instead of px to give the content size fluidity */
+
